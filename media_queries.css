@@ -1,0 +1,399 @@
+@media(max-width:87.5rem)      
+{
+    /* 1400px */
+    /* 8px */
+   html
+   {
+     font-size: 56.25%;
+   }
+   .content-grid
+   {
+    height: 60rem;
+
+   }
+ .content-project
+ {
+    height: 70rem;
+ }
+ .myimg
+{
+    width: 60rem;
+    height: 80rem;
+    border-radius: 1rem;  
+}
+}
+
+@media(max-width:78rem)
+{
+    /* 1248px */
+     /* 7px */
+     html
+     {
+        font-size: 43.75%;
+     }
+      .hero-section
+       {
+        margin-bottom: 5rem;
+       }
+   
+     .content-project{
+        height: 72rem;
+     }
+      .content-grid
+   {
+    height: 50rem;
+
+   }
+   .project-section
+   {
+    gap: 10rem;
+   }
+   .myimg
+{
+    width: 65rem;
+    height: 85rem;
+    border-radius: 1rem;  
+}
+ 
+}
+@media(max-width:62.5rem)
+{
+      /* 1000px */
+    
+       .child-navbar
+       {
+       
+        font-size: 2.5rem;
+       }
+       .skill-grid
+       {
+        display: flex;
+        flex-direction: column;
+        width: 100rem;
+        gap: 0rem;
+      
+       }
+       .content-grid
+       {
+         height:30rem;
+         margin-bottom: 10rem;
+        
+
+        
+       }
+       .skill-section
+       {
+          align-items: center;
+       }
+       .hero-section
+       {
+        margin-bottom: 2rem;
+        justify-content: center;
+        gap: 1rem;
+       
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: 6rem;
+       
+       }
+         .heading-logo
+    {
+        width: 40rem;
+    }
+.myimg
+{
+    width: 60rem;
+    height: 80rem;
+    border-radius: 1rem;  
+}
+    
+      
+       .skill-section
+       {
+        gap: 2rem;
+       }
+       .btn-hero{
+         text-align: center;
+       }
+
+}
+
+
+@media(max-width:54rem)
+{
+    /* 864px */
+    /* 6px */
+    /* html
+    {
+        font-size: 37.5%;
+    } */
+    .btn-hero
+    {
+        width: 26rem;
+    }
+    .hero-section
+    {
+        justify-content: space-between;
+    }
+    .myimg
+{
+    width: 60rem;
+    height: 80rem;
+    border-radius: 1rem;  
+}
+  .btn-hero
+    {
+        width: 22rem;
+        text-align: center;
+    }
+  
+}
+@media(max-width:42rem)
+{
+    /* 672px */
+   
+    
+    .skill-grid
+    {
+        /* width: 70rem; */
+       
+        /* margin: 2rem 2rem; */
+        align-items: center;
+    }
+     .skill-section
+       {
+        width: 90rem;
+        margin: 0 auto;
+          
+       }
+    .heading-logo
+    {
+        width: 40rem;
+    }
+    .hero-section
+    {
+        flex-direction:column-reverse;
+        justify-content: center;
+        gap: 10rem;
+    }
+    .myimg
+    {
+        width: 70rem;
+        height: 80rem;
+    }
+    .child-hero-section
+    {
+        width: 100rem;
+        text-align: center;
+        align-items: center;
+    }
+    /* .btn-hero
+    {
+        transform: translate(-50%,0);
+    } */
+    #p1
+    {
+        margin-left: 1rem;
+    }
+    .project-section
+    {
+        justify-content: center;
+        gap: 2rem;
+        height: 90rem;
+    }
+    
+    .content-project
+    {
+        margin-right: 0;
+        gap: 3.5rem;
+          justify-content: center;
+    }
+    .content-grid
+    {
+        height: 35rem;
+        width: 80rem;
+    }
+    .btn-hero
+    {
+        align-items: center;
+        width: 21rem;
+    }
+    .child-hero-section{
+        width: 70rem;
+    }
+    .btn-project
+    {
+        width: 13rem;
+      
+    }
+    
+  
+  
+    
+   
+  
+} 
+@media(max-width:38rem)
+{
+     /* 608px */
+      /* 5px */
+     
+    /* html
+    {
+        font-size: 31.25%;
+    } */
+    .myimg
+    {
+        width: 60rem;
+        height: 75rem;
+    }
+    .child-navbar
+    {
+        gap: 1rem;
+    }
+
+       .child-hero-section
+       {
+       
+        width: 50rem;
+        gap: 6rem;
+        
+       
+       } 
+       .para-hero
+       {
+        font-size: 2.6rem;
+       }
+       .content-project
+       {
+        height: 80rem;
+       justify-content: center;
+       gap: 4rem;
+       }
+       .heading-logo
+       {
+        width: 50rem;
+       }
+        .content-grid
+    {
+        height: 35rem;
+        width: 55rem;
+    }
+    #p1
+    {
+        height: 10rem;
+    }
+    .btn-hero
+    {
+        width: 20rem;
+         text-align: center;
+    }
+    .skill-grid
+    {
+        width: 70rem;
+    }
+  .skill-section
+  {
+    width: 70rem;
+  }
+}
+@media(max-width:29rem)
+{
+    /* //464px */
+    .hero-section
+    {
+        gap: 8rem;
+    }
+    .child-hero-section
+    {
+        width: 40rem;
+    }
+    .para-project
+    {
+        height: 30rem;
+    }
+    .content-project
+    {
+        padding: 2.5rem;
+        height: 90rem;
+    }
+    /* .content-grid
+    {
+        width: 60rem;
+          margin-left: 4rem;
+    } */
+    /* .skill-grid
+    {
+      
+        width: 60rem;
+    } */
+    .myimg
+    {
+        width: 40rem;
+        height: 50rem;
+    }
+    .skill-section
+    {
+       width: 45rem;
+
+    }
+    .skill-grid
+    {
+        width: 40rem;
+    }
+    .content-grid
+    {
+        width: 45rem;
+         height: 40rem;
+    }
+     #p1
+    {
+        height: 10rem;
+    }
+    .btn-hero
+    {
+         text-align: center;
+        width: 18rem;
+    }
+   
+}
+@media(max-width:24rem)
+{
+    /* 384px */
+    #p1
+    {
+        height: 10rem;
+    }
+    .content-grid
+    {
+        width: 44rem;
+        height: 42rem;
+    }
+    .skill-grid
+    {
+        width: 38rem;
+    }
+    .child-hero-section
+    {
+        width: 40rem;
+    }
+    .myimg
+    {
+        width: 40rem;
+        height: 50rem;
+    }
+    .content-project
+    {
+        height: 100rem;
+        gap: 4rem;
+    }
+    .skill-section
+    {
+        width: 40rem;
+
+    }
+    .btn-hero
+    {
+         text-align: center;
+    }
+}

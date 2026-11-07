@@ -1,0 +1,435 @@
+
+
+/* --------------- colors--------------- */
+
+
+/* Background: #09090b (Almost Pitch Black)
+
+Surface/Cards: #18181b (Matte Zinc)
+
+Primary Accent: #8b5cf6 (Neon Violet for buttons and link hover effects)
+
+Text: #e4e4e7 (Soft Pearl) */
+
+/* --------------------------------------------- */
+
+
+
+
+/* -----------------sizee------------------ */
+
+
+/* text size = 2rem */
+/* heading size = 5rem */
+
+
+/* --------------------------------------------------- */
+
+
+/* ---------------universal selector and body thingyy--------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    /* outline: 1px solid red; */
+}
+html
+{
+    font-size: 62.5%;
+        background-color: #09090b ;
+        color: #e4e4e7; 
+}
+body{
+    letter-spacing: .4px;
+}
+
+
+
+
+h1, h2 {
+      font-family: "Poppins", sans-serif;
+     letter-spacing: -.2rem;
+     font-size: 5rem;
+
+
+      color: #8b5cf6;
+    text-align: center;
+    text-transform: uppercase;
+    
+} 
+
+
+/* ----------variablesss------------- */
+:root{
+    --navbar-height:5rem;
+    --skill-section-upper:30.4rem;
+}
+
+
+
+
+/* ---------------NAV BAR--------------- */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18181b;
+    height: var(--navbar-height);
+}
+
+.img-logo
+{
+    width: 10rem;
+}
+.child-navbar
+{
+    display: flex;
+   gap: 4rem;
+   margin-right: 1rem;
+   font-size: 2rem;
+
+
+}
+.btn-navbar
+{
+    color: #f8fafc;
+    text-decoration: none;
+    
+    padding: .7rem;
+   
+
+    
+}
+.grandchild-navbar
+{
+    transition: .5s;
+}
+.grandchild-navbar:hover
+{
+    transform: scale(1.1,1.1);
+     text-shadow: .01rem .01rem  1rem  white;
+}
+.btn-navbar:active
+{
+    color: #8b5cf6;
+     text-shadow: .01rem .01rem  1rem  #8b5cf6;
+}
+
+
+
+/* -------------------------------------------- */
+
+
+
+
+
+
+/* ---------------HERO SECTION------------------------- */
+.hero-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 5rem;
+    height: calc(100vh - var(--navbar-height) );
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    transition: 1s;
+    margin-bottom: 20rem;
+   
+}
+
+.child-hero-section
+{
+    width: 50rem;
+    height: calc(100vh-5rem);
+    justify-content: center;
+   
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      transition: 1s;
+}
+
+
+.myimg
+{
+    width: 40rem;
+    height: 50rem;
+    border-radius: 1rem;
+   
+   
+}
+.myimg:hover
+{
+    box-shadow: .00rem .001rem 1.5rem  white;
+   
+    
+}
+
+.span-hero
+{
+    color: #8b5cf6;
+}
+
+.para-hero
+{
+    font-size: 3rem;
+}
+
+.btn-hero
+{
+font-size: 2rem;
+margin-left: 20rem;
+transition: .5s;
+border: solid white;
+width: 15rem;
+padding: .5rem;
+ border-radius: 20px;
+
+}
+.btn-hero:hover
+{
+        
+        transform: scale(1.1,1.1);
+
+
+      text-shadow: .01rem .01rem  1rem  white;
+        box-shadow: .01rem .01rem 1rem #8b5cf6;
+      
+       
+
+       
+}
+
+
+
+
+
+
+
+
+
+/* -----------------SKILL SECTION-------------------- */
+
+
+
+
+.heading-skill
+{
+    justify-content: center;
+}
+
+.skill-section
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    justify-content: space-evenly;
+  
+    margin-bottom: 20rem;
+}
+
+.skill-grid
+{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 10rem;
+    margin:5rem 5rem;
+    
+    
+
+    
+}
+.skill-logo
+{
+    width: 8rem;
+    height: 8rem;
+}
+.content-grid
+{
+   background-color: #18181b;
+   height: calc( 100vh - var(--skill-section-upper) );
+   border-radius: 2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   margin-bottom: 20rem;
+}
+.content-grid:hover{
+    box-shadow: .1rem .1rem 2rem white;
+    
+}
+
+
+
+/* -------------inner content of skill section------ */
+.upper
+{
+    display: flex;
+   
+    
+}
+.heading-logo
+{
+    align-content: center;
+    text-align: center;
+    width: 30.4rem;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+
+
+}
+.lower
+{
+    font-size: 2rem;
+    padding: .4rem;
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+
+/* -----------project section---------------------------- */
+
+#project
+{
+    transform: rotate(90deg);
+}
+#p1
+{
+    font-size: 10rem;
+    line-height: 8rem;
+    margin-left: 10rem;
+    
+}
+.project-section
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    align-items: center;
+    margin-bottom: 20rem;
+
+}
+
+.content-project
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    width: 80vw;
+    
+    font-size: 3rem;
+    background-color: #18181b;
+    height: 64rem;
+    margin-right: 1rem;
+    padding: 4rem;
+    border-radius: 2rem;
+
+}
+.grand-child-content-project
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.heading-project-content
+{
+   
+    font-size: 3rem;
+    font-weight: 900;
+}
+.list-project
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.span-project
+{
+    font-size: 2.5rem;
+    color: #8b5cf6;
+}
+.para-project
+{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.btn-project
+{
+    align-self: flex-end;
+    width: 13rem;
+    margin-top: 1.5rem;
+    
+}
+
+
+
+/* -------------footer---------------------- */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #18181b;
+}
+.child-footer
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+
+    
+
+}
+.logo-footer
+{
+    width: 2rem;
+    height: 2rem;
+  
+}
+
+.last-footer
+{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
